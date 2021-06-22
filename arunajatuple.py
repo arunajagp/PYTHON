@@ -1,4 +1,4 @@
-mytuple = ("apple", "banana", "cherry")
+mytuple = ("apple", "banana", "cherry","banana")
 print(mytuple)
-print(count(mytuple)) #to count the number of elements in a tuple
-print(index("apple")) #to specify the position of the elemnt in the tuple
+print(mytuple.count("banana")) #to count the number of elements in a tuple
+print(mytuple.index("apple")) #to specify the position of the elemnt in the tuple
